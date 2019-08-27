@@ -4,7 +4,7 @@ public class EnemyShipTesting
 {
 	public static void main(String[] args) 
 	{
-		EnenmyShipBuilding MakeUFOs = new UFOEnemyShipBuilding();
+		UFOEnemyShipBuilding MakeUFOs = new UFOEnemyShipBuilding();
 		
 		EnemyShip theGrunt = MakeUFOs.orderTheShip("UFO");
 		
