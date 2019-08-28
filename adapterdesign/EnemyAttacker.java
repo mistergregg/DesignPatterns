@@ -1,6 +1,10 @@
 package com.collabera.adapterdesign;
 
-public class EnemyAttacker
+public interface EnemyAttacker
 {
-
+	public void fireWeapon();
+	
+	public void driveForward();
+	
+	public void assignDriver(String driver);
 }
